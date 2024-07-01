@@ -1,0 +1,186 @@
+/* Existing CSS */
+.header {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white */
+    padding: 10px 20px;
+    border-radius: 20px; /* Curved corners */
+    width: calc(100% - 4cm); /* Decrease width by 1cm from both sides (2cm total) */
+    margin: 10px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Fix the navbar to the top */
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .join-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .join-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .hero-section {
+    position: relative;
+    height: 100vh;
+    background-image: url('/Users/TejaKonda/job-portal-project/public/background.jpg'); 
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .text-block {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  
+  .text-block h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: purple;
+  }
+  
+  .text-block h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .get-started-button {
+    background-color: white;
+    color: purple;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid purple;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .get-started-button:hover {
+    background-color: purple;
+    color: white;
+  }
+  
+  .subscription-section {
+    position: relative;
+    height: 100vh;
+    background-image: url('/Users/TejaKonda/job-portal-project/public/light-yellow-bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black; 
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .subscription-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .subscription-plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .plan {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 23%;
+    min-width: 250px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .plan-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: -20px -20px 10px -20px;
+  }
+  
+  .plan-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .plan-details {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .plan-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .plan-button:hover {
+    background-color: #0056b3;
+  }
